@@ -1,0 +1,174 @@
+
+
+
+
+@media all and (min-width: 768px) and (max-width: 1025px) 
+{
+
+    body{
+        margin-left: 73px;
+        margin-right: 73px;
+    
+    }
+
+
+    .nav-item:hover{
+        border-bottom: 2px solid #0065FC;
+        border-top: 2px solid transparent;
+    }
+
+    /*Div 1/ 1.1/ 1.2/ 1.3/ 1.4*/
+
+
+    /*intro-site*/
+
+    /*formulaire*/
+
+    .formulaire{
+        padding-top: 20px;
+        width: 400px;
+    }
+
+    .localisation {
+        height: 46px;
+        background-color: #F2F2F2;
+    }
+
+    .ecrire input{
+        width: 230px;
+        height: 46px;
+        border: 1px solid #F2F2F2;
+    }
+    
+    /*filtres*/
+
+    .liste-filtres{
+        gap: 17px;
+        padding-top: 30px;
+        margin-top: 30px;
+    }
+
+    .filtres-design {
+        gap: 22px;
+        padding: 0px;
+    }
+
+    .filtres-design span {
+        padding: 0px 10px 0px 0px;
+    }
+
+    .filtres{
+        display: flex;
+        align-items: baseline;
+    }
+    
+    /*Div 2/ 2.1/ 2.2/ 2.3*/
+
+    /*main-cadre*/
+
+    .main-cadre{
+        gap: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*hebergements*/
+
+    .hebergements-marseille{
+        gap: 30px;
+        padding: 0;
+    }
+
+    /*les-plus-populaires*/
+
+
+    .populaires-cartes{
+        flex-direction: row;
+        gap: 3%;
+    }        
+
+    .les-plus-populaires{
+        margin-bottom: 25px;
+    }
+    
+        
+    .populaires-cartes .article-populaires{
+        width: 20%;
+        height: 100%;
+    }
+
+    .articles-populaires{
+        flex: 4;
+    }
+
+    .etoiles-pop{
+        margin: 70px 10px 10px;
+    }
+
+    .populaires-titre-prix-etoiles .titre{
+        font-size: 11px;
+        margin: 5px 0 0 5px;
+    }
+
+    .populaires-titre-prix-etoiles .prix{
+        font-size: 9px;
+        margin: 5px;
+    }
+    
+    
+    /*activites*/
+
+    .activites{
+        gap: 50px;
+        margin-top: 45px;
+    }
+
+    .image-activites {
+        height: 267px;
+    }
+
+    .image-activites .titre{
+        margin: 15px;
+    }
+    
+
+    .image-activites img {
+        height: 75%;
+    }
+    
+    /*FOOTER*/
+
+    footer .pied{
+        width: 100%; 
+        gap: 90px;
+    }
+
+    .foot-propos{
+        padding-left: 10px;
+    }
+
+}
+
+@media all and (min-width: 476px) and (max-width: 768px) 
+{
+
+    body{
+        margin-left: 20px;
+        margin-right: 20px;
+    
+    }
+
+    .activites{
+        gap: 20px;
+        margin-top: 45px;
+    }
+
+    .hebergements-marseille{
+        margin-left: 20px;
+        margin-right: 20px;
+
+    }
+}
+
+
+

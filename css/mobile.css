@@ -1,0 +1,282 @@
+@media all and (min-width: 320px) and (max-width: 475px) 
+
+{
+   
+
+    body{
+        margin: auto;
+    }
+
+    .nav{
+        margin-top: 20px;
+    }
+
+    .nav a{
+        flex-basis: 50%;
+        text-align: center;;
+    }
+
+    .nav-item:hover{
+        border-bottom: 2px solid #0065FC;
+        border-top: 2px solid transparent;
+    }
+
+    .nav-bar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    /*Div 1/ 1.1/ 1.2/ 1.3/ 1.4*/
+
+    .main-intro{
+        padding: 10px;
+    }
+
+     /*intro-site*/
+
+
+    .intro-site h1{
+        font-size: 25px;
+    }
+
+    .intro-site p{
+        margin-top: 20px;
+    }
+
+    /*formulaire*/
+
+    .formulaire{
+        width: 100%;
+    }
+
+    .localisation{
+        flex: 2;
+    }
+
+    .ecrire {
+        flex: 10;
+    }
+
+    
+
+    .rechercher{
+        flex: 1;
+    }
+
+    .rechercher p{
+        display: none;
+    }
+
+    .rechercher i{
+        visibility: visible;
+        padding: 15px;
+        color: white;
+    }
+
+    /*filtres*/
+
+    .liste-filtres{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+
+    .filtres-titre{
+        margin-top: 35px;
+
+        
+    }
+
+    .filtres-design{
+        gap: 14px;
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        padding: 5px;
+        margin-bottom: 20px;
+    }
+
+    .filtres-design span {
+        font-weight: bolder;
+        position: relative;
+        padding: 10px;
+    }
+
+    .liste-filtres h1{
+        font-size: 15px;
+    }
+
+    .filtres span{
+        font-size: 11px;
+        font-weight: bolder;
+    }
+
+    .filtres {
+        display: flex;
+        align-items: baseline;
+    }
+
+    
+    
+    .filtres-eco{
+        display: flex;
+        order: 1;
+    }
+    
+    .filtres-fam{
+        display: flex;
+        order: 4;
+    }
+    
+    .filtres-rom{
+        display: flex;
+        order: 2;
+    }
+    
+    .filtres-ani{
+        display: flex;
+        order: 3;
+    }
+
+    .infobulle{
+        margin: 0px 0px 20px;
+    }
+
+    /*Div 2/ 2.1/ 2.2/ 2.3*/
+
+    /*main-cadre*/
+
+    .main-cadre{
+        flex-direction: column; 
+    }
+
+    /*les-plus-populaires*/
+    
+
+    .les-plus-populaires{
+        padding: 10px;
+        gap: 15px; 
+        order: -1; 
+        border-radius: 0px;
+    }
+
+    .populaires-cartes{
+        gap: 11px;
+        margin-left: 0px;
+        margin-right: 0px;
+    
+    }
+    
+    
+
+    .etoiles-pop{
+        margin: 15px 0px 0px 5px;
+    }
+
+    .populaires-titre-prix-etoiles .titre{
+        font-weight: bold;
+        margin: 5px;
+        font-size: 15px;
+    }
+
+    .populaires-titre-prix-etoiles .prix{
+        font-size: 12px;
+        margin: 5px;
+    }
+    
+    
+    /*hebergements*/
+
+
+    .hebergements{
+        padding-left: 5px;
+    }
+
+    .hebergements-marseille{
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-left: 5px;
+        margin-right: 5px;
+     }
+
+     .hebergements h2{
+        padding: 0px 10px;
+     }
+    
+    
+    .hebergements-marseille .lien{
+        width: 100%;
+    }
+    
+    .hebergements-marseille .article
+    {
+        box-shadow: 5px 5px 5px 5px rgba(229, 226, 226, 0.2);
+    }
+            
+
+    .afficher{
+        font-size: 20px;
+        font-weight: bolder;
+        margin-top: 40px;
+
+    }
+
+    /*activites*/
+
+    .activites{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 45px;
+        padding: 12px;
+    }
+    
+    .image-activites{
+        height: 199px;
+    }
+    
+
+    .image-activites img{
+        height: 70%;
+    }
+
+    .cadre-activites h2{
+        margin-left: 12px;
+    }
+    
+
+
+
+    
+    
+
+    /*FOOTER*/
+
+    
+    footer .pied{
+    width: 100%;
+    height: 450px;
+    flex-direction: column;
+    gap: 10px;
+
+    }
+    
+    
+    
+    .foot-hebergements{
+        padding-left: 50px;
+    }
+
+    
+    .foot-assistance{
+        padding-left: 50px;
+    }
+
+
+    
+}
+
