@@ -297,7 +297,8 @@ a{
 }
 
 .hebergements h2{
-    padding: 20px 30px;
+    padding: 0px 30px;
+    margin-top: 40px;
 }
 
 .hebergements-marseille{
