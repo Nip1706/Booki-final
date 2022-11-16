@@ -128,17 +128,17 @@
     
     .filtres-fam{
         display: flex;
-        order: 4;
+        order: 2;
     }
     
     .filtres-rom{
         display: flex;
-        order: 2;
+        order: 3;
     }
     
     .filtres-ani{
         display: flex;
-        order: 3;
+        order: 4;
     }
 
     .infobulle{
@@ -281,4 +281,38 @@
 
     
 }
+
+@media all and (min-width: 320px) and (max-width: 375px) 
+
+{
+    .filtres .fa-solid{
+        padding: 5px;
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-bottom: 10px;
+    }
+    
+}
+
+@media all and (min-width: 319px) and (max-width: 325px) 
+
+{
+    
+
+    .filtres span {
+        font-size: 10px;
+        font-weight: bolder;
+    }
+
+    .filtres-design span {
+        font-weight: bolder;
+        position: relative;
+        padding: 0px;
+    }
+
+    
+}
+
+
+
 
