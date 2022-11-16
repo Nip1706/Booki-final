@@ -13,8 +13,8 @@
 
 
     .nav-item:hover{
-        border-bottom: 2px solid #0065FC;
-        border-top: 2px solid transparent;
+        border-bottom: 3px solid #0065FC;
+        border-top: 3px solid transparent;
     }
 
     /*Div 1/ 1.1/ 1.2/ 1.3/ 1.4*/
@@ -60,6 +60,13 @@
     .filtres{
         display: flex;
         align-items: baseline;
+    }
+
+    .filtres .fa-solid{
+        padding: 5px;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-bottom: 10px;
     }
     
     /*Div 2/ 2.1/ 2.2/ 2.3*/

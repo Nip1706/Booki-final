@@ -1,7 +1,36 @@
+
+
+
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('../fonts/raleway-regular-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ralewaybold';
+    src: url('../fonts/raleway-bold-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'ralewaylight';
+    src: url('../fonts/raleway-light-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body{
     font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-weight: 700;
     color: black;
     background-color: white;
     padding: 0;
@@ -15,6 +44,7 @@ header{
     margin: auto;
 
 }
+
 
 a{
     font-weight: lighter;
@@ -40,7 +70,7 @@ a{
 
 .nav-item{
     padding: 32px;
-    border-top: 2px solid transparent;
+    border-top: 3px solid transparent;
 }
 
 .nav-item.active{
@@ -48,7 +78,7 @@ a{
 }
 
 .nav-item:hover{
-    border-top: 2px solid #0065FC;
+    border-top: 3px solid #0065FC;
 }
 
 
@@ -68,6 +98,7 @@ a{
 
 
 .intro-site h1{
+    font-weight: bolder;
     font-size: 22px;
 }
 
@@ -109,6 +140,7 @@ a{
     height: 100%;
     flex: 4;
     width: 100%;
+    padding-left: 15px;
 }
 
 .ecrire{
@@ -119,7 +151,6 @@ a{
 .ecrire ::placeholder{
     font-weight: bold;
     color: black;
-    padding-left: 20px;
     font-size: 18px;
 }
 
@@ -178,6 +209,8 @@ a{
 
 .filtres-design span{
     padding: 0px 20px 0px 0px;
+    font-weight: bolder;
+
 }
 
 .filtres{
@@ -209,6 +242,12 @@ a{
     color: #0065FC;
     padding: 1rem;
     border-radius: 50px;
+}
+
+.filtres .fa-solid{
+    padding: 12px;
+    margin-top: 1px;
+    margin-left: 8px;
 }
 
 
