@@ -48,22 +48,13 @@
     .formulaire{
         width: 100%;
     }
-
-    .localisation{
-        flex: 2;
-    }
-
-    .ecrire {
-        flex: 10;
-    }
-
     
 
     .rechercher{
-        flex: 1;
+        width: 50px;
     }
 
-    .rechercher p{
+    .rechercher span{
         display: none;
     }
 
@@ -139,7 +130,9 @@
 
     .infobulle{
         margin: 0px 0px 20px;
+        display: flex;
     }
+
 
     /*Div 2/ 2.1/ 2.2/ 2.3*/
 

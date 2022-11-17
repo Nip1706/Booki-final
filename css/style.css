@@ -281,9 +281,10 @@ li{
     font-weight: lighter;
 }
 
-.infobulle .fa-solid{
+.fa-circle-info{
     background-color: #0065FC;
-    border-radius: 10px;
+    height: 16px;
+    border-radius: 15px;
 }
 
 .fa-circle-info{
