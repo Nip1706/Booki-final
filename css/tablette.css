@@ -30,13 +30,18 @@
     }
 
     .localisation {
-        height: 46px;
+        height: 49px;
         background-color: #F2F2F2;
     }
 
+    .localisation .fa-solid{
+            margin-left: 20px;
+            margin-top: 16px;
+    }
+
     .ecrire input{
-        width: 230px;
-        height: 46px;
+        width: 223px;
+        height: 49px;
         border: 1px solid #F2F2F2;
     }
     
