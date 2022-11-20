@@ -11,6 +11,16 @@
         margin-top: 60px;
     }
 
+    .nav-item.active{
+        padding: 32px 50px;
+    }
+
+    .nav-item{
+        padding: 32px 50px
+    }
+    
+    
+
    
     .nav-item:hover{
         border-bottom: 3px solid #0065FC;
@@ -241,7 +251,7 @@
         height: 70%;
     }
 
-    .cadre-activites h2{
+    #cadre-activites h2{
         margin-left: 12px;
     }
     
@@ -292,7 +302,14 @@
 @media all and (min-width: 319px) and (max-width: 325px) 
 
 {
-    
+    .nav-item.active{
+        padding: 32px 29px;
+    }
+
+    .nav-item{
+        padding: 32px 45px
+    }
+
 
     .filtres span {
         font-size: 10px;

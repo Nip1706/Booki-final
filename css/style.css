@@ -491,7 +491,7 @@ article h3{
 
 /*activites*/
 
-.cadre-activites{
+#cadre-activites{
     display: flex;
     flex-direction: column;
     margin-top: 40px;
