@@ -50,6 +50,11 @@
     }
     
 
+    .ecrire{
+        width: 232px;
+    }
+    
+
     .rechercher{
         width: 50px;
     }
@@ -154,8 +159,8 @@
 
     .populaires-cartes{
         gap: 11px;
-        margin-left: 0px;
-        margin-right: 0px;
+        margin-left: 10px;
+        margin-right: 10px;
     
     }
     
@@ -299,6 +304,11 @@
         position: relative;
         padding: 0px;
     }
+
+    .ecrire{
+        width: 200px;
+    }
+    
 
     
 }
