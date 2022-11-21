@@ -252,7 +252,6 @@ li{
 
 .infobulle span{
     padding-left: 10px;
-    font-weight: lighter;
 }
 
 .fa-circle-info{
@@ -329,7 +328,6 @@ li{
 
 .hebergements-marseille .article .prix{
     font-size: 14px;
-    font-weight: lighter;
     padding-left: 10px;
     margin: 6px 0;
 }
@@ -398,7 +396,6 @@ article h3{
 }
 
 .populaires-cartes .article-populaires{
-    width: 100%;
     height: 27%;
     background-color: white;
     border-radius: 20px;
@@ -444,7 +441,6 @@ article h3{
 }
 
 .populaires-titre-prix-etoiles .titre{
-    width: 100%;
     font-weight: bold;
     padding-left: 10px;
     padding-bottom: 0px;
@@ -452,9 +448,7 @@ article h3{
 }
 
 .populaires-titre-prix-etoiles .prix{
-    width: 100%;
     font-size: 15px;
-    font-weight: lighter;
     padding-left: 10px;
     margin: 5px 0 0 10px;
 }
@@ -539,17 +533,14 @@ footer .pied{
 
 .foot-propos p{
     font-size: 15px;
-    font-weight: lighter;
 }
 
 .foot-hebergements p{
     font-size: 15px;
-    font-weight: lighter;
 }
 
 .foot-assistance p{
     font-size: 15px;
-    font-weight: lighter;
 }
 
 
