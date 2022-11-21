@@ -51,6 +51,7 @@
         gap: 17px;
         padding-top: 30px;
         margin-top: 30px;
+        margin-bottom: 20px;
     }
 
     .filtres-design {
@@ -85,6 +86,10 @@
     }
 
     /*hebergements*/
+
+    .hebergments{
+        margin-top: 20px;
+    }
 
     .hebergements-marseille{
         gap: 30px;
