@@ -11,6 +11,10 @@
     
     }
 
+    .nav-item{
+        padding: 32px 0 0 65px;
+    }
+
 
     .nav-item:hover{
         border-bottom: 3px solid #0065FC;
@@ -25,7 +29,7 @@
     /*formulaire*/
 
     .formulaire{
-        padding-top: 20px;
+        padding-top: 7px;
         width: 400px;
     }
 
@@ -37,11 +41,16 @@
     .localisation .fa-solid{
             margin-left: 20px;
             margin-top: 16px;
+            margin-right: 30px;
+    }
+
+    .ecrire{
+        width: 253px;
     }
 
     .ecrire input{
-        width: 223px;
-        height: 49px;
+        width: 253px;
+        height: 45px;
         border: 1px solid #F2F2F2;
     }
     
@@ -49,9 +58,7 @@
 
     .liste-filtres{
         gap: 17px;
-        padding-top: 30px;
-        margin-top: 30px;
-        margin-bottom: 20px;
+        margin-top: 32px;
     }
 
     .filtres-design {
@@ -74,6 +81,11 @@
         margin-left: 10px;
         margin-bottom: 10px;
     }
+
+    .infobulle{
+        margin-top: 38px;
+        margin-bottom: 38px;
+    }
     
     /*Div 2/ 2.1/ 2.2/ 2.3*/
 
@@ -87,9 +99,6 @@
 
     /*hebergements*/
 
-    .hebergements{
-        margin-top: 30px;
-    }
 
     .hebergements-marseille{
         gap: 30px;
