@@ -58,7 +58,7 @@
 
     .liste-filtres{
         gap: 17px;
-        margin-top: 32px;
+        margin-top: 17px;
     }
 
     .filtres-design {
@@ -83,8 +83,8 @@
     }
 
     .infobulle{
-        margin-top: 38px;
-        margin-bottom: 38px;
+        margin-top: 35px;
+        margin-bottom: 16px;
     }
     
     /*Div 2/ 2.1/ 2.2/ 2.3*/
@@ -107,11 +107,20 @@
 
     /*les-plus-populaires*/
 
+    .populaires-intro{
+        margin-bottom: 26px;
+        margin-top: 21px;
+    }
+    
 
     .populaires-cartes{
         flex-direction: row;
-        gap: 3%;
-    }        
+        gap: 23px;
+        margin-left: 40px;
+        margin-bottom: 48px;
+
+    }   
+        
 
     .les-plus-populaires{
         margin-bottom: 25px;
@@ -128,17 +137,18 @@
     }
 
     .etoiles-pop{
-        margin: 70px 10px 10px;
+        margin-top: 58px;
+        margin-left: 5px;
     }
 
     .populaires-titre-prix-etoiles .titre{
-        font-size: 11px;
+        font-size: 14px;
         margin: 5px 0 0 5px;
     }
 
     .populaires-titre-prix-etoiles .prix{
-        font-size: 9px;
-        margin: 5px;
+        font-size: 13px;
+        margin: 5px 0px 0px 5px;
     }
     
     
@@ -166,11 +176,11 @@
 
     footer .pied{
         width: 100%; 
-        gap: 90px;
+        gap: 81px;
     }
 
     .foot-propos{
-        padding-left: 10px;
+        padding-left: 70px;
     }
 
 }

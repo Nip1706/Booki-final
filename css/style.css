@@ -45,7 +45,8 @@ li{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 31px;
+    margin-top: 44px;
 }
 
 .nav{
@@ -104,6 +105,7 @@ li{
     width: 30%;
     display: flex;
     flex-direction: row;
+    margin-bottom: 12px;
 }
 
 .localisation{
@@ -248,7 +250,7 @@ li{
 
 
 .infobulle{
-    margin: 20px 0px;
+    margin: 15px 0px;
 }
 
 .infobulle span{
@@ -274,6 +276,7 @@ li{
 .main-cadre{
     display: flex;
     gap: 40px;
+    margin-top: 22px;
 }
 
 /*hebergements*/
@@ -313,6 +316,8 @@ li{
     display: flex;
     flex-direction: column;
     padding-bottom: 5px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+
 }
 
 .hebergements-marseille .article img{
@@ -423,6 +428,7 @@ article h3{
     background-color: white;
     border: 5px solid white;
     border-radius: 20px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
 }
 
 .articles-populaires img{
@@ -481,7 +487,7 @@ article h3{
 .activites{
     display: flex;
     justify-content: center;
-    gap: 45px;
+    gap: 43px;
 }
 
 .activites .lien{
@@ -493,7 +499,7 @@ article h3{
     height: 444px;
     border-radius: 20px;
     border-radius: 20px;
-    border: 1px solid rgba(229, 226, 226, 0.2);
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -507,6 +513,7 @@ article h3{
 
 .image-activites .titre{
     margin-left: 19px;
+    margin-top: 20px;
 }
 
 
@@ -529,19 +536,23 @@ article h3{
 footer{
     margin: 0;
     padding: 0;
-    padding-top: 50px;
+    padding-top: 61px;
 }
 
 footer .pied{
     background-color: #F2F2F2;
     display: flex;
     flex-direction: row;
-    gap: 240px;
-
+    gap: 230px;
+    height: 235px;
 }
 
 .foot-propos{
-    padding-left: 50px;
+    padding-left: 70px;
+}
+
+.foot-propos h3{
+    margin-top: 45px;
 }
 
 .foot-propos p{
@@ -552,8 +563,20 @@ footer .pied{
     font-size: 15px;
 }
 
+.foot-hebergements h3{
+    margin-top: 45px;
+}
+
+.foot-assistance{
+    margin-left: 9px;
+}
+
 .foot-assistance p{
     font-size: 15px;
+}
+
+.foot-assistance h3{
+    margin-top: 45px;
 }
 
 
