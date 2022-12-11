@@ -10,7 +10,6 @@ body{
     padding: 0;
     margin-left: 55px;
     margin-right: 50px;
-    margin-top: 20px;
 }
 
 header{
@@ -46,7 +45,7 @@ li{
     align-items: center;
     justify-content: space-between;
     margin-bottom: 31px;
-    margin-top: 44px;
+    margin-top: 21px;
 }
 
 .nav{
@@ -102,7 +101,6 @@ li{
 
 
 .formulaire{
-    width: 30%;
     display: flex;
     flex-direction: row;
     margin-bottom: 12px;
@@ -188,7 +186,7 @@ li{
     display: flex;
     flex-direction: row;
     gap: 36px;
-    padding: 20px;
+    padding: 15px;
 }
 
 .fa-money-bill-wave{
@@ -239,7 +237,7 @@ li{
 .filtres .fa-solid{
     padding: 12px;
     margin-top: 1px;
-    margin-left: 8px;
+    margin-left: 7px;
 }
 
 
@@ -445,6 +443,9 @@ article h3{
 
 .populaires-titre-prix-etoiles{
     flex: 8;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 
@@ -456,20 +457,29 @@ article h3{
     flex-direction: row;
     width: 100%;
     padding-left: 10px;
-    margin: 40px 10px 10px;
 }
+
+.etoiles-pop-hotes {
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-left: 10px;
+    margin-left: 5px;    
+}
+
 
 .populaires-titre-prix-etoiles .titre{
     font-weight: bold;
-    padding-left: 10px;
     padding-bottom: 0px;
-    margin: 5px 0 0 10px;
+    margin: 5px 0 0 15px;
 }
 
 .populaires-titre-prix-etoiles .prix{
     font-size: 15px;
-    padding-left: 10px;
-    margin: 5px 0 0 10px;
+    margin-top: 2px;
+    margin-left: 15px;
+    margin-bottom: 0px;
 }
 
 .populaires-etoile .fa-solid {
@@ -490,10 +500,10 @@ article h3{
     gap: 43px;
 }
 
-.activites .lien{
+.activites .lien {
     flex: 3;
-    box-shadow: 0 3px 15px (0 0 3);
 }
+
 
 .image-activites{
     height: 444px;

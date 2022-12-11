@@ -187,7 +187,12 @@
     .populaires-intro h2{
         font-size: 22px;
         margin-top: 0px;
+    }   
+    
+    .titre-prix{
+        margin-left: 10px;
     }    
+
     
     
 
@@ -263,7 +268,6 @@
     }
 
     #cadre-activites h2{
-        width: 33%;
         margin-bottom: 0px;
         margin-left: 22px;
         margin-top: 85px;
@@ -300,8 +304,9 @@
 
     
     .foot-assistance{
-        padding-left: 29px;
+        padding-left: 0px;
         margin-left: 0px;
+        text-align: center;
     }
 
 
