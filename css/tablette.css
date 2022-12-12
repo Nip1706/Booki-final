@@ -2,7 +2,7 @@
 
 
 
-@media all and (min-width: 476px) and (max-width: 1124px) 
+@media all and (min-width: 768px) and (max-width: 1024px) 
 {
 
     body{
@@ -76,13 +76,32 @@
     }
 
     .filtres-design span {
-        padding: 0px 3px 0px 0px;
+        padding: 0px 20px 0px 0px;
     }
+
+    @media all and (min-width: 768px) and (max-width: 779px) 
+    {
+        .filtres-design span {
+            padding: 0px 20px 0px 0px;
+        }
+
+        .filtres .fa-solid {
+            padding: 2px;
+            margin-top: 10px;
+            margin-left: 0px;
+            margin-bottom: 10px;
+        }
+    
+    }
+
 
     .filtres{
         display: flex;
         align-items: baseline;
     }
+
+    @media all and (min-width: 780px) and (max-width: 1024px) 
+{
 
     .filtres .fa-solid{
         padding: 5px;
@@ -90,6 +109,8 @@
         margin-left: 0px;
         margin-bottom: 10px;
     }
+
+}
 
     .infobulle{
         margin-top: 35px;
@@ -243,7 +264,7 @@
     
 }
 
-@media all and (min-width: 1023px) and (max-width: 1227px) 
+@media all and (min-width: 1095px) and (max-width: 1227px) 
 {
 
     .hebergements-marseille{
@@ -251,21 +272,50 @@
         grid-template-columns: repeat(3, 1fr);
         row-gap: 10px;
         column-gap: 10px;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .etoiles {
+        padding: 1px 10px;
+        font-size: 12px;
     }
 
 }
 
-
-@media all and (min-width: 476px) and (max-width: 895px) 
+@media all and (min-width: 1024px) and (max-width: 1094px) 
 {
 
-    body{
-        margin-left: 20px;
-        margin-right: 20px;
-    
+    .hebergements-marseille{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 5px;
+        column-gap: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
     }
+
+    .etoiles {
+        padding: 1px 10px;
+        font-size: 12px;
+    }
+
+    .hebergements-marseille .article .titre{
+        font-weight: bold;
+        padding-left: 10px;
+        margin: 5px 0 3px;
+    }
+    
+
+
+}
+
+
+
+
+@media all and (min-width: 768px) and (max-width: 895px) 
+{
+
 
     .filtres{
         display: flex;
@@ -280,12 +330,12 @@
 
 
     .filtres-design span {
-        padding: 0px 5px 0px 0px;
+        padding: 0px 0px 0px 0px;
     }
 
 
     .activites{
-        gap: 20px;
+        gap: 15px;
         margin-top: 45px;
     }
 
@@ -297,12 +347,14 @@
 
     .hebergements-marseille{
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         row-gap: 20px;
         column-gap: 20px;
         margin-left: 20px;
         margin-right: 20px;
     }
+
+
 
     .etoiles-pop{
         margin-left: 5px;
@@ -311,7 +363,8 @@
 
 }
 
-@media all and (min-width: 476px) and (max-width: 678px) {
+@media all and (min-width: 541px) and (max-width: 678px) {
+    
     .liste-filtres {
         flex-direction: column;
         align-items: flex-start;
@@ -324,12 +377,6 @@
         
     }
 
-    .filtres-design{
-        gap: 14px;
-        padding: 0px;
-        margin-bottom: 40px;
-        flex-wrap: wrap;
-    }
 
     .activites {
         display: flex;
@@ -338,14 +385,20 @@
         gap: 43px;
     }
 
-    .populaires-cartes{
-        flex-direction: row;
-        gap: 10px;
-        margin-left: 10px;
-        margin-bottom: 15px;
-        margin-right: 10px;
-    }   
-        
+
+    .main-cadre{
+        flex-direction: column;
+    }
+       
+    .hebergements-marseille{
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        column-gap: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
 
 
 }
@@ -353,14 +406,6 @@
 
 @media all and (min-width: 476px) and (max-width: 742px) 
 {
-    .hebergements-marseille{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        row-gap: 20px;
-        column-gap: 20px;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
 
     footer .pied{
         flex-direction: column;

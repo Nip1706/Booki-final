@@ -1,4 +1,4 @@
-@media all and (min-width: 320px) and (max-width: 475px) 
+@media all and (min-width: 320px) and (max-width: 767px) 
 
 {
    
@@ -61,7 +61,7 @@
     
 
     .ecrire{
-        width: 232px;
+        width: 90%;
     }
     
 
@@ -98,7 +98,47 @@
         padding: 0px;
         margin-bottom: 40px;
         flex-wrap: wrap;
+        width: 100%;
     }
+
+    @media all and (min-width: 728px) and (max-width: 767px) 
+    {
+
+    .filtres-design{
+        gap: 40px;
+        padding: 0px;
+        margin-bottom: 40px;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+}
+
+@media all and (min-width: 679px) and (max-width: 727px) 
+{
+
+.filtres-design{
+    gap: 35px;
+    padding: 0px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+}
+
+@media all and (min-width: 646px) and (max-width: 678px) 
+{
+
+.filtres-design{
+    gap: 25px;
+    padding: 0px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+}
+
+
+
 
     .filtres-design span {
         font-weight: bolder;
@@ -174,6 +214,7 @@
         margin-left: 10px;
         margin-right: 11px;
         margin-bottom: 37px;
+        flex-direction: column;
     }
 
     .populaires-intro{
@@ -193,12 +234,16 @@
         margin-left: 10px;
     }    
 
+
+
     
     
 
     .etoiles-pop{
-        margin: 60px 0px 0px 5px;
+        margin: 20px 0px 0px 5px;
     }
+
+
 
     .populaires-titre-prix-etoiles .titre{
         font-weight: bold;
@@ -310,21 +355,35 @@
     }
 
 
+    @media all and (min-width: 320px) and (max-width: 405px) 
+    {
+
+
+    .filtres-design span {
+        padding: 0px 0px 0px 0px;
+        font-weight: bolder;
+    }
+
+    .filtres .fa-solid {
+        padding: 1px;
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-bottom: 10px;
+    }
+
     
 }
 
 @media all and (min-width: 320px) and (max-width: 375px) 
 
 {
-    .filtres .fa-solid{
-        padding: 5px;
-        margin-top: 10px;
-        margin-left: 5px;
-        margin-bottom: 10px;
-    }
 
     .filtres {
         flex-basis: 45%;
+    }
+
+    .nav-item.active {
+        padding: 32px 20px;
     }
 
     
