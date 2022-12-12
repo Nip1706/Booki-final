@@ -339,12 +339,14 @@
     }
 
     .foot-propos{
-        padding-left: 29px;
+        padding-left: 10px;
+        text-align: center;
     }
     
     
     .foot-hebergements{
-        padding-left: 29px;
+        padding-left: 17px;
+        text-align: center;
     }
 
     
@@ -427,4 +429,4 @@
 
 
 
-
+}
